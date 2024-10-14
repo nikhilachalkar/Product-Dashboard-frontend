@@ -29,7 +29,7 @@ const App = () => {
         {/* Month Selector */}
         <label htmlFor="month" className="month-label">Select Month: </label>
         <select id="month" value={selectedMonth} onChange={handleMonthChange} className="month-selector">
-          {['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'].map((month, index) => (
+          {['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec','NA'].map((month, index) => (
             <option key={index} value={index + 1}>
               {month}
             </option>
