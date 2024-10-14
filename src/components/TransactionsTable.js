@@ -67,10 +67,10 @@ const TransactionsTable = ({ selectedMonth }) => {
       </table>
 
       <div className="pagination">
-        <button onClick={handlePrevPage} disabled={page === 1}>
+        <button  className = "button" onClick={handlePrevPage} disabled={page === 1}>
           Previous
         </button>
-        <button onClick={handleNextPage}>Next</button>
+        <button onClick={handleNextPage} className = "button">Next</button>
       </div>
     </div>
   );
