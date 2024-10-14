@@ -6,7 +6,7 @@ import TransactionsBarChart from './components/TransactionsBarChart';
 import './App.css'; // Custom CSS for styling
 
 const App = () => {
-  const [selectedMonth, setSelectedMonth] = useState(3); // March by default
+  const [selectedMonth, setSelectedMonth] = useState(0); 
 
   const handleMonthChange = (e) => {
     setSelectedMonth(e.target.value);
