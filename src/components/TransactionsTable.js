@@ -43,7 +43,7 @@ const TransactionsTable = ({ selectedMonth }) => {
         value={searchTerm}
         onChange={handleSearchChange}
       />
-      <h2 disabled={month === 13}>Transactions Table for Month {selectedMonth}</h2>
+      
       <table>
         <thead>
           <tr>
