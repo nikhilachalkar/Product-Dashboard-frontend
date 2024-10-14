@@ -84,6 +84,9 @@ table th, table td {
   width: 60%;
 }
 
+.button{
+  color : #ffffff;
+}
 td img {
   display: block;
   
