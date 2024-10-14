@@ -20,8 +20,8 @@ const App = () => {
           {/* Navigation Bar */}
           <nav>
             <ul>
-              <button><li> className = "button1" <Link to="/">Transactions Table   </Link></li></button>
-              <button><li> className = "button1" <Link to="/statistics">Statistics & Bar Chart</Link></li></button>
+              <button className = "button1"><li>  <Link to="/">Transactions Table   </Link></li></button>
+              <button className = "button1"><li>  <Link to="/statistics">Statistics & Bar Chart</Link></li></button>
             </ul>
           </nav>
         </header>
