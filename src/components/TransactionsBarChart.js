@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Bar } from 'react-chartjs-2';
-import { Chart, CategoryScale, LinearScale, BarElement } from 'chart.js'; // Register required elements
+import { Chart, CategoryScale, LinearScale, BarElement } from 'chart.js'; 
 import axios from 'axios';
 
-// Register necessary elements with Chart.js
+
 Chart.register(CategoryScale, LinearScale, BarElement);
 
 const TransactionsBarChart = ({ selectedMonth }) => {
@@ -48,8 +48,8 @@ const TransactionsBarChart = ({ selectedMonth }) => {
   
   useEffect(() => {
     fetchBarChartData();
-    console.log("Chart Data:", chartData); // Add this to check the chart data
-  }, [selectedMonth, chartData]); // Make sure to add chartData to the dependency array
+    console.log("Chart Data:", chartData); 
+  }, [selectedMonth, chartData]); 
   
 
   return (
