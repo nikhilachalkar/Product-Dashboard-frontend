@@ -17,7 +17,7 @@ const App = () => {
       <div className="App">
         <header className="navbar">
           <h1>Transaction Dashboard</h1>
-          {/* Navigation Bar */}
+          
           <nav>
             <ul>
               <button className = "button1"><li>  <Link to="/">Transactions Table   </Link></li></button>
@@ -26,7 +26,7 @@ const App = () => {
           </nav>
         </header>
 
-        {/* Month Selector */}
+        
         <label htmlFor="month" className="month-label">Select Month: </label>
         <select id="month" value={selectedMonth} onChange={handleMonthChange} className="month-selector">
           {['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec','NA'].map((month, index) => (
