@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import TransactionsTable from './components/TransactionsTable';
 import TransactionsStatistics from './components/TransactionsStatistics';
 import TransactionsBarChart from './components/TransactionsBarChart';
-import './App.css'; // Custom CSS for styling
+import './App.css';
 
 const App = () => {
   const [selectedMonth, setSelectedMonth] = useState(13); 
